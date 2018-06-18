@@ -1,0 +1,6 @@
+baseURL = "https://blog.hspak.com/"
+languageCode = "en-us"
+title = "Blog"
+theme = "bh"
+#pygmentsCodeFences = true
+#pygmentsStyle = "manni"
