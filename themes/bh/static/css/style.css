@@ -1,5 +1,75 @@
+html,body {
+  height: 99%;
+  font-family: 'Open Sans', sans-serif;
+}
+blockquote {
+  border-left: 4px solid #ccc;
+  margin: 0;
+  padding-left: 36px;
+  font-style: italic;
+}
 pre {
-  background-color: #CCC;
-  color: #444;
   padding: 8px;
+  line-height: 1.5em;
+  font-size: 12px;
+  width: 700px;
+}
+h2 {
+  text-decoration: none;
+  color: #111;
+}
+a {
+  text-decoration: none;
+  color: #555;
+}
+a:hover {
+  color: #369;
+}
+
+/* generic */
+.header {
+  margin: 56px 0 28px 0;
+  font-size: 36px;
+}
+.footer {
+  margin: 28px 0 16px 0;
+}
+
+.outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 700px;
+}
+.item {
+  min-width: 700px;
+  flex: none;
+}
+
+/* list view */
+.list {
+}
+.listheader {
+  font-size: 26px;
+}
+.listdate {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 16px;
+}
+.listsummary {
+  max-width: 700px;
+}
+
+/* content */
+.content {
+  max-width: 700px;
+  line-height: 1.65em;
+  font-size: 18px;
 }

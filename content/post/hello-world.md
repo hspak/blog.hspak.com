@@ -4,27 +4,38 @@ date: 2018-06-17T14:01:44-07:00
 draft: true
 ---
 
-# asd
-## asd
-### sa
+# Heading1
+## Heading2
+### Heading3
 
-* das
-* d
+* Unordered
+* List
 
-1. sd
-2. asd
+1. Ordered
+2. List
 
-```
+> I'm a quote
+> New quote
+
+> More Quotes
+
+```go
 func main() {
-    fmt.Println("Hello World")
+    fmt.Println("Hello World!")
 }
 ```
 
 ```sh
 #!/bin/bash
-echo "Hello World"
+echo "Hello World!"
 ```
 
 ```python
-print("Hello World")
+print("Hello World!")
+```
+
+```rust
+fn main() {
+    println!("Hello World!");
+}
 ```
