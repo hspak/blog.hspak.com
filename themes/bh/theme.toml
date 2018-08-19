@@ -1,8 +1,8 @@
 name = "bh"
 license = "Apache 2.0"
 licenselink = "https://github.com/hspak/blog.hspak.com/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
+description = "Minimal Hugo theme for personal blog"
+homepage = "https://blog.hspak.com/"
 tags = []
 features = []
 min_version = "0.41"
