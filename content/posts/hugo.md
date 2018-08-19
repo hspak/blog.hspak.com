@@ -19,7 +19,7 @@ class support for Jekyll).
 Since I've last deployed my blog to Github Pages, they [support
 HTTPS](https://help.github.com/articles/securing-your-github-pages-site-with-https/)!
 This is great news and there's really no reason to not have TLS enabled for any
-static site hosted off of GitHub pages. My only wish was SAN support so I could
+static site hosted off of GitHub pages. My only wish is SAN support so I could
 support both *www.hspak.com* and *[hspak.com](https://hspak.com)* for example. I
 can't enable full TLS without it (more on that below).
 
