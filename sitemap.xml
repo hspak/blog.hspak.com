@@ -3,12 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.hspak.com/posts/hugo/</loc>
+    <lastmod>2018-08-18T15:36:46-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.hspak.com/</loc>
+    <lastmod>2018-08-18T15:36:46-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.hspak.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hspak.com/posts/</loc>
+    <lastmod>2018-08-18T15:36:46-07:00</lastmod>
     <priority>0</priority>
   </url>
   

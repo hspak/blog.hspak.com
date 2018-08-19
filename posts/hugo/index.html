@@ -1,0 +1,64 @@
+<!doctype HTML>
+<html>
+<head>
+<title>Blog: Hong Shick Pak</title>
+<link rel="stylesheet" href="https://blog.hspak.com/css/style.css" />
+</head>
+<body>
+<div class="outer">
+<div class="container">
+<div class="header"><a href="/">Blog</a></div>
+
+<div class="listheader">Hugo</div>
+<div class="listdate">2018-08-18</div>
+<div class="content"><p>Welcome to my third blog rewrite. The stack consists of:</p>
+
+<ul>
+<li>Hugo</li>
+<li>GitHub Pages</li>
+<li>Cloudflare</li>
+</ul>
+
+<p><a href="https://gohugo.io/">Hugo</a> is a static site generator written in Go. It&rsquo;s a
+singly binary (thanks Go!) that includes an easy-to-use CLI, an HTTP server with
+live-reloading, a lot of functionality out-of-the-box. For those already using
+Jekyll, I don&rsquo;t think there&rsquo;s any feature compelling to move unless you&rsquo;re
+looking to re-write your blog stack (especially considering GitHub has first
+class support for Jekyll).</p>
+
+<p>Since I&rsquo;ve last deployed my blog to Github Pages, they <a href="https://help.github.com/articles/securing-your-github-pages-site-with-https/">support
+HTTPS</a>!
+This is great news and there&rsquo;s really no reason to not have TLS enabled for any
+static site hosted off of GitHub pages. My only wish was SAN support so I could
+support both <em>www.hspak.com</em> and <em><a href="https://hspak.com">hspak.com</a></em> for example. I
+can&rsquo;t enable full TLS without it (more on that below).</p>
+
+<p>With native support for HTTPS in pages, some may be wondering why bother pulling
+in Cloudflare. To start, it&rsquo;s free. They provide some high level analytics,
+lower latency around the world (probably?), and auto minified content/size
+optimized images. As an added bonus, I can enable <strong>Full (strict) mode</strong> for TLS
+which means Cloudflare expects the origin to be serving TLS with a valid
+certificate, unlike the <strong>Flexible mode</strong> that mode people used back in the day
+when GitHub pages with HTTP only.</p>
+
+<p>I&rsquo;ve setup my <a href="https://github.com/hspak/blog.hspak.com">GitHub repo</a> so that the
+<strong>master</strong> branch hosts my Hugo workspace and the <strong>gh-pages</strong> branch hosts the
+Hugo generated content. GitHub supports several different options for
+where you want GitHub to serve your files (master branch, gh-pages, docs/
+folder) and I find that this setup works best for me. YMMV.</p>
+
+<p>All this means that with a single Git commit, I get an infinitely* scalable
+end-to-end encrypted static blog. What a time we live in, right?</p>
+
+<p>* :)</p>
+</div>
+<div class="footer">
+<a href="#top">To Top</a>
+<b>·</b>
+<a href="https://hspak.com">By Hong</a>
+</div>
+</div>
+</div>
+</body>
+</html>
+
