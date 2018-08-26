@@ -1,6 +1,7 @@
 ---
 title: "Hugo"
 date: 2018-08-18T15:36:46-07:00
+description: New blog introduction, written in Hugo
 ---
 
 Welcome to my third blog rewrite. The stack consists of:

@@ -7,3 +7,4 @@ cp -r public/* ./ && rm -r public
 git add .
 git commit -m 'publish'
 git push
+git checkout master
