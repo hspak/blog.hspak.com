@@ -3,6 +3,8 @@
 <head>
   <title>Blog: Hong Shick Pak</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://blog.hspak.com; child-src 'none';">
+  <meta name="referrer" content="no-referrer">
   <meta name="author" content="Hong Shick Pak">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="Michael Pak, Hong Shick Pak, Hong, Shick, Pak, Michael, hspak, blog">
@@ -13,10 +15,8 @@
   <meta property="og:title" content="{{ index .Params "title" }}">
   <meta property="og:description" content="Hspak: {{ index .Params "description" | default "Blog of Hong Shick Pak" }}">
   <meta property="twitter:creator" content="@hspasta">
-  <meta name="referrer" content="no-referrer">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://blog.hspak.com; child-src 'none';">
   <link rel="canonical" href="{{ .Site.BaseURL }}">
-  <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | absURL }}" />
+  <link rel="stylesheet" href="{{ "css/style.css" | absURL }}" />
 </head>
 <body>
 <div class="outer">
