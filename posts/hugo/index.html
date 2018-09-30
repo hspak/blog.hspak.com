@@ -3,7 +3,7 @@
 <head>
   <title>Blog: Hong Shick Pak</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="script-src 'self'; font-src 'self'; style-src 'self'; form-action 'self'; base-uri 'self'; default-src 'none'; img-src 'self'; frame-src 'none'; worker-src 'none';">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self'; font-src 'self'; style-src 'unsafe-inline' 'self'; form-action 'self'; base-uri 'self'; default-src 'none'; img-src 'self'; frame-src 'none'; worker-src 'none';">
   <meta name="referrer" content="no-referrer">
   <meta name="author" content="Hong Shick Pak">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,6 +65,12 @@ folder) and I find that this setup works best for me. YMMV.</p>
 end-to-end encrypted static blog. What a time we live in, right?</p>
 
 <p>* :)</p>
+
+<p><strong>Edit</strong> (2018-09-30): Unfortunately, it looks like GitHub&rsquo;s HTTPS support is
+not entirely stable and I&rsquo;ve had to update my Cloudflare SSL config from <strong>Full
+(strict)</strong> to just <strong>Full</strong>. This means that Cloudflare doesn&rsquo;t verify the
+certificate on <a href="https://hspak.com">https://hspak.com</a>, it just checks to see that it <em>has</em> some
+certificate.</p>
 </div>
 <div class="footer">
 <a href="#top">To Top</a>
