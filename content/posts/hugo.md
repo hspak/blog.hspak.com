@@ -42,3 +42,9 @@ All this means that with a single Git commit, I get an infinitely\* scalable
 end-to-end encrypted static blog. What a time we live in, right?
 
 \* :)
+
+**Edit** (2018-09-30): Unfortunately, it looks like GitHub's HTTPS support is
+not entirely stable and I've had to update my Cloudflare SSL config from **Full
+(strict)** to just **Full**. This means that Cloudflare doesn't verify the
+certificate on https://hspak.com, it just checks to see that it _has_ some
+certificate.

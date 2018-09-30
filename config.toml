@@ -5,3 +5,7 @@ theme = "bh"
 noclasses = true
 pygmentsCodeFences = true
 pygmentsStyle = "manni"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+
+[author]
+  name = "Hong Shick Pak"
