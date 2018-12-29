@@ -51,8 +51,7 @@ pre {
   margin: auto;
   flex-direction: column;
   max-width: 700px;
-  flex: 0 0 700px;
-  padding-left: 12px;
+  padding: 0 12px 0 12px;
 }
 .item {
   flex: none;
