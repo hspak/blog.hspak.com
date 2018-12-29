@@ -15,12 +15,6 @@ blockquote {
   padding-left: 36px;
   font-style: italic;
 }
-pre {
-  padding: 8px;
-  line-height: 1.5em;
-  font-size: 12px;
-  width: 700px;
-}
 h2 {
   text-decoration: none;
   color: #111;
@@ -31,6 +25,12 @@ a {
 }
 a:hover {
   color: #369;
+}
+pre {
+  padding: 8px;
+  line-height: 1.5em;
+  font-size: 12px;
+  overflow-x: auto;
 }
 
 /* generic */
@@ -45,17 +45,16 @@ a:hover {
 .outer {
   width: 100%;
   display: flex;
-  justify-content: center;
 }
 .container {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  margin: auto;
   flex-direction: column;
-  width: 700px;
+  max-width: 700px;
+  flex: 0 0 700px;
+  padding-left: 12px;
 }
 .item {
-  min-width: 700px;
   flex: none;
 }
 
@@ -71,12 +70,11 @@ a:hover {
   margin-bottom: 16px;
 }
 .listsummary {
-  max-width: 700px;
+  /* max-width: 700px; */
 }
 
 /* content */
 .content {
-  max-width: 700px;
   line-height: 1.65em;
   font-size: 18px;
 }
